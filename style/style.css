@@ -11,8 +11,8 @@
   --slate-800: #1f2937;
   --slate-900: #111827;
 
-  --highlight-blue: #4482ff;
-  --highlight-gray: #f4f6fa;
+  --blue-100: #eff4ff;
+  --blue-300: #4482ff;
 }
 
 html,
@@ -38,7 +38,7 @@ body {
 .drop-down-menu {
   /* hide drop down menu */
   opacity: 0;
-  transition: opacity 0.18s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
 }
 
 .visible {
@@ -107,15 +107,15 @@ li {
 
 li:hover,
 button:hover {
-  color: var(--highlight-blue);
-  fill: var(--highlight-blue);
-  background-color: var(--highlight-gray);
+  color: var(--blue-300);
+  fill: var(--blue-300);
+  background-color: var(--blue-100);
   transition: 0.05s;
 }
 
 li:hover svg,
 button:hover svg {
-  fill: var(--highlight-blue);
+  fill: var(--blue-300);
   transition: 0.05s;
 }
 
