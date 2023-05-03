@@ -4,7 +4,7 @@
   --slate-100: #f3f4f6;
   --slate-200: #e5e7eb;
   --slate-300: #d1d5db;
-  --slate-400: #afb7c3;
+  --slate-400: #b9c1ce; /*main*/
   --slate-500: #6b7280;
   --slate-600: #4b5563;
   --slate-700: #374151;
@@ -69,10 +69,14 @@ h1 {
 
 li,
 h1 {
-  height: 40px;
+  height: 41px;
   display: flex;
   align-items: center;
-  padding-left: 15px;
+  padding-left: 20px;
+}
+
+h1:first-of-type {
+  padding-top: 5px;
 }
 
 li:last-of-type {
@@ -88,11 +92,11 @@ hr {
 }
 
 svg {
-  height: 14px;
+  height: 13px;
   width: auto;
   fill: var(--slate-400);
 }
 
 .drop-down-menu svg {
-  margin-right: 14px;
+  margin-right: 17px;
 }
