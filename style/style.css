@@ -10,6 +10,9 @@
   --slate-700: #374151;
   --slate-800: #1f2937;
   --slate-900: #111827;
+
+  --highlight-blue: #4482ff;
+  --highlight-gray: #f4f6fa;
 }
 
 html,
@@ -34,7 +37,7 @@ body {
 
 .drop-down-button-container,
 .drop-down-menu {
-  width: 300px;
+  width: 320px;
 }
 
 .drop-down-button-container {
@@ -54,6 +57,7 @@ button {
 button {
   height: 40px;
   width: 100px;
+  cursor: pointer;
   font-family: inherit;
   font-weight: inherit;
   color: inherit;
@@ -76,11 +80,32 @@ h1 {
 }
 
 h1:first-of-type {
-  padding-top: 5px;
+  margin-top: 5px;
 }
 
 li:last-of-type {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 4px;
+  box-sizing: border-box;
+}
+
+li:hover,
+button:hover {
+  color: var(--highlight-blue);
+  fill: var(--highlight-blue);
+  background-color: var(--highlight-gray);
+  transition: 0.05s;
+}
+
+li:hover svg,
+button:hover svg {
+  fill: var(--highlight-blue);
+  transition: 0.05s;
 }
 
 hr {
