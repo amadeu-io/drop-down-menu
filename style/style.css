@@ -35,6 +35,17 @@ body {
   align-items: center;
 }
 
+.drop-down-menu {
+  /* hide drop down menu */
+  opacity: 0;
+  transition: opacity 0.18s ease-in-out;
+}
+
+.visible {
+  /* show drop down menu */
+  opacity: 1;
+}
+
 .drop-down-button-container,
 .drop-down-menu {
   width: 320px;
