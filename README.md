@@ -13,7 +13,7 @@ Assignment of the JavaScript chapter in [The Odin Project](https://www.theodinpr
 
 ### Resources Used 📚
 
-- [Dribbble](https://dribbble.com/shots/15582954-Little-Big-Details-1-Menu-Drop) (UI Inspo)
+- [Dribbble - Murat Alpay](https://dribbble.com/shots/15582954-Little-Big-Details-1-Menu-Drop) (UI Inspo)
 - [Google Fonts](https://fonts.google.com) (Icons & Font)
 - [EmojiTerra](https://emojiterra.com/) (Emojis)
 
