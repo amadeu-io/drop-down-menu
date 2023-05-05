@@ -1,7 +1,7 @@
 # Dropdown Menu ⬇️
 
 <p align="center">
-  <img src="screenshots/screenshot.png" width="650px" alt="screenshot">
+  <img src="screenshot/screenshot.png" width="650px" alt="screenshot">
 </p>
 <h2 align="center">
   <a href="https://nightrunner4.github.io/drop-down-menu">👉 Demo</a>
