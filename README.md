@@ -1,4 +1,4 @@
-# Dropdown Menu ⬇️
+# Dropdown Menu 📑
 
 <p align="center">
   <img src="screenshot/screenshot.png" width="650px" alt="screenshot">
@@ -9,7 +9,7 @@
 
 ### About 📖
 
-Assignment of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). More practice of the things we've already been learning in the course
+Assignment of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). More practice of the techniques we've already been learning in the course
 
 ### Resources Used 📚
 
