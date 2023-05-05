@@ -1,4 +1,4 @@
-// toggle active classes on menu & button, that shows & hides the drop down menu
+// toggle active classes on menu & button,, which shows & hides the drop down menu
 // and styles the button
 function toggleDropdownMenu() {
   // toggle active classes
@@ -13,6 +13,8 @@ function toggleDropdownMenu() {
 const button = document.querySelector("button");
 const dropDownMenu = document.querySelector(".drop-down-menu");
 const dropDownButtonIcon = document.querySelector(".drop-down-button-icon");
+
+// arrow icons in menu button
 const expandMore = `<svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48" fill="var(--slate-400)">
   <path d="M479.889 713q-8.889 0-17.339-3.545Q454.1 705.909 449 699L250 502q-12-13.25-11.5-32.125T251 437.5q15-14.5 
   33-13t31 13.5l165 165 166-165q12.5-13 31.75-13.5T710 438.429q14 13.428 13 32.5Q722 490 709 502L512 699q-6.167 
