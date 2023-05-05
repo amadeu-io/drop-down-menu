@@ -1,4 +1,5 @@
 /* tailwind slate color palette */
+
 :root {
   --slate-50: #f9fafb;
   --slate-100: #f3f4f6;
@@ -15,6 +16,8 @@
   --blue-300: #4482ff;
 }
 
+/* general */
+
 html,
 body {
   height: 100%;
@@ -24,7 +27,6 @@ html {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  --gray: rgb(185, 189, 192);
 }
 
 body {
@@ -34,6 +36,19 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+.drop-down-button-container,
+.drop-down-menu {
+  width: 320px;
+}
+
+.drop-down-menu,
+button {
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* toggle functionality */
 
 .drop-down-menu {
   /* hide drop down menu */
@@ -50,30 +65,7 @@ body {
   color: var(--blue-300);
 }
 
-.drop-down-button-container,
-.drop-down-menu {
-  width: 320px;
-}
-
-.drop-down-button-container {
-  margin-top: 20px;
-  margin-bottom: 7px;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-}
-
-.drop-down-button-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.drop-down-menu,
-button {
-  background-color: white;
-  border-radius: 5px;
-}
+/* button */
 
 button {
   height: 40px;
@@ -86,6 +78,27 @@ button {
   align-items: center;
   justify-content: space-evenly;
 }
+
+button:hover {
+  color: var(--blue-300);
+  transition: 0.05s;
+}
+
+.drop-down-button-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-down-button-container {
+  margin-top: 20px;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+/* drop down menu */
 
 h1 {
   font-size: 0.8rem;
@@ -118,11 +131,6 @@ li {
 li:hover {
   color: var(--blue-300);
   background-color: var(--blue-100);
-  transition: 0.05s;
-}
-
-button:hover {
-  color: var(--blue-300);
   transition: 0.05s;
 }
 
