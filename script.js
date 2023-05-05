@@ -1,4 +1,4 @@
-// toggle active classes on meny & button, that shows & hides the drop down menu
+// toggle active classes on menu & button, that shows & hides the drop down menu
 // and styles the button
 function toggleDropdownMenu() {
   // toggle active classes
