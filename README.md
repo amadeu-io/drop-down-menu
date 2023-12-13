@@ -4,7 +4,7 @@
   <img src="screenshot/screenshot.png" width="650px" alt="screenshot">
 </p>
 <h2 align="center">
-  <a href="https://nightrunner4.github.io/drop-down-menu">👉 Demo</a>
+  <a href="https://amadeu-io.github.io/drop-down-menu">👉 Demo</a>
 </h2>
 
 ### About 📖
